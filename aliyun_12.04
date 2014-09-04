@@ -8,5 +8,8 @@ deb http://mirrors.aliyun.com/ubuntu/ precise main restricted universe multivers
   deb-src http://mirrors.aliyun.com/ubuntu/ precise-updates main restricted universe multiverse
   deb-src http://mirrors.aliyun.com/ubuntu/ precise-proposed main restricted universe multiverse
   deb-src http://mirrors.aliyun.com/ubuntu/ precise-backports main restricted universe multiverse
-#12.04 precise
-#14.04 trusty
+#Note: the default source is for ubuntu12.04, and you can get 13.04 or 14.04 by replace the key words in vim:
+#% s/precise/trusty/g
+#12.04 Precise
+#14.04 Trusty
+#13.04 Raring
